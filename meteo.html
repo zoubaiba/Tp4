@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo avec Formulaire</title>
+</head>
+<body>
+
+    <h1>Consulter la météo</h1>
+
+    <form id="form-meteo">
+        <label for="input-ville">Ville : </label>
+        <input type="text" id="input-ville" required>
+        <button type="submit">Soumettre</button>
+    </form>
+
+    <hr>
+
+    <div id="resultats">
+        <h2 id="affichage-ville"></h2>
+        <p>Température : <span id="temperature"></span>°C</p>
+        <p>Vent : <span id="vent">--</span> km/h</p>
+        <img id="icone-temps" src="" alt="" style="display:none;">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
