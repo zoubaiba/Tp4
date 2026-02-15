@@ -1,3 +1,6 @@
+"use strict";
+
+document.addEventListener('DOMContentLoaded', () => {
 const form = document.getElementById('form-meteo');
 
 form.addEventListener('submit', lancer);
@@ -36,3 +39,4 @@ async function lancer(event) {
     if(villeSaisie) {
         await afficherMeteo(villeSaisie);
 }}
+});
