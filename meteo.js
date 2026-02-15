@@ -35,4 +35,4 @@ async function lancer(event) {
 
     if(villeSaisie) {
         await afficherMeteo(villeSaisie);
-    }}
+}}
